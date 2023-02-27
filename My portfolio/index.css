@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+}
+header {
+  background: linear-gradient(
+      to top,
+      rgb(0, 0, 0, 0.5) 50%,
+      rgb(0, 0, 0, 0.5) 50%
+    ),
+    url(pexels-hasan-albari-1229861.jpg);
+  text-align: center;
+  padding: 10% 0 20%;
+  background-position: center;
+  background-size: cover;
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 5.6rem;
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0 auto;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+.body {
+  text-align: center;
+}
+.second-h1 {
+  font-family: "Montserrat", sans-serif;
+  margin: 5% auto 2% auto;
+  color: rgb(116, 62, 24);
+  font-weight: bolder;
+}
+.intro {
+  margin: auto;
+  width: 40%;
+}
+p {
+  line-height: 2;
+  display: block;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+}
+.myFace {
+  width: 15%;
+  border-radius: 50%;
+  margin-top: 7%;
+}
+.audiomarkPics {
+  width: 5%;
+  text-align: center;
+}
+.musicPics {
+  width: 50%;
+}
+.musicTalk {
+  width: 50%;
+  margin: 0 auto;
+}
+.musicCareer {
+  text-align: center;
+}
+button {
+  margin-top: 30px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+.inTouch {
+  text-align: center;
+  padding-top: -30%;
+}
+.getP {
+  width: 30%;
+  font-size: 1em;
+}
+footer {
+  padding-top: 10%;
+}
+.end {
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgb(0, 0, 0, 0.5) 50%,
+    rgb(0, 0, 0, 0.5) 50%
+  );
+  color: auto;
+}
+li {
+  display: flex;
+  margin: 0 auto;
+  list-style: none;
+}
+ul {
+  margin: 25px auto;
+  text-decoration: none;
+  margin-right: 15%;
+}
+li ul a {
+  text-decoration: none;
+  list-style: none;
+  color: aliceblue;
+}
+
+/* .mySkills {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.carousel-inner {
+  border: none;
+}
+.myCarousel {
+  width: 50%;
+  margin: 25px auto;
+  background: linear-gradient(
+    to top,
+    rgb(0, 0, 0, 0.5) 50%,
+    rgb(0, 0, 0, 0.5) 50%
+  );
+}
+img {
+  z-index: -1;
+}
+.carouselHead {
+  color: rgb(116, 62, 24);
+}
+.pictureFrame {
+  width: 50%;
+  height: 50%;
+  margin: 25px auto;
+  background: linear-gradient(
+    to top,
+    rgb(0, 0, 0, 0.5) 50%,
+    rgb(0, 0, 0, 0.5) 50%
+  );
+  position: relative;
+  z-index: 1; 
+}*/
+/* For the mobile view */
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: large;
+  }
+  h2 {
+    font-size: medium;
+  }
+  p {
+    line-height: rem;
+    display: block;
+    font-size: 1em;
+  }
+  .intro {
+    margin: auto;
+    width: 60%;
+  }
+  .secondP {
+    width: 160%;
+    margin: 0 auto;
+    margin-left: -30%;
+    font-size: 1em;
+  }
+  .musicTalk {
+    margin: 0 auto;
+    font-size: 1em;
+  }
+  .head {
+    padding-bottom: 30%;
+  }
+  button {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+  }
+  .getP {
+    width: 90%;
+  }
+  ul {
+    margin: 25px auto;
+    text-decoration: none;
+    margin-right: 12%;
+  }
+}
